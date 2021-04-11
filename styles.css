@@ -350,6 +350,7 @@ div.footer-btn a {
     padding: 10px 50px;
     border-radius: 3px;
     letter-spacing: 2px;
+    text-align: center;
 }
 
 div.footer h6 {
@@ -423,4 +424,20 @@ div.footer h6 {
         background: #304353;
         padding: 10rem 20px ;
     }
+
+    div.footer-input {
+        flex-direction: column;   
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width:100%; 
+        margin-bottom: 10px;
+    }
+
+    div.footer-btn a {
+        width:100%;
+    }
+
 }
